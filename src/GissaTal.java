@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class GissaTal {
     public static void main(String[] args) {
         Random slumpGenerator = new Random();
-        int hemligtTal = slumpGenerator.nextInt(10) + 1; // slumpar tal mellan 1 och 10
+        int hemligtTal = slumpGenerator.nextInt(10) + 1;
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Du ska gissa ett tal 1-10, du har 3 försök");

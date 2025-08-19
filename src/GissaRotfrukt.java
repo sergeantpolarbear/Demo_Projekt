@@ -1,4 +1,4 @@
-public class GissaRotfrukt {
+public class GissaRotfrukt { //testar en sak
     public static void main(String[] args) {
         String[] rotfrukter = {"morot", "potatis", "rödbetor", "kålrot"};
         java.util.Scanner tangentbord = new java.util.Scanner(System.in);
